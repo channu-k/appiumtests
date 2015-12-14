@@ -14,4 +14,5 @@ public class APIConstants {
 	public static final String APPWAITACTVITY = "appWaitActivity";
 	public static final String APPPACKAGE = "appPackage";
 	public static final String APPACTIVITY = "appActivity";
+	public static final String DETAILS = "details";
 }
