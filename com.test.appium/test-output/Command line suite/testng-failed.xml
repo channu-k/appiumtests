@@ -9,30 +9,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- Test.com.test.appium.About -->
-      <class name="Test.com.test.appium.Attachment">
-        <methods>
-          <include name="setUp"/>
-          <include name="composeWithImage"/>
-        </methods>
-      </class> <!-- Test.com.test.appium.Attachment -->
-      <class name="Test.com.test.appium.BigText">
-        <methods>
-          <include name="sendBigText"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Test.com.test.appium.BigText -->
-      <class name="Test.com.test.appium.BackGroundsScreen">
-        <methods>
-          <include name="setUp"/>
-          <include name="viewBackGroundsScreen"/>
-        </methods>
-      </class> <!-- Test.com.test.appium.BackGroundsScreen -->
-      <class name="Test.com.test.appium.Audio">
-        <methods>
-          <include name="selectAudio"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Test.com.test.appium.Audio -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

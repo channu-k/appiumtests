@@ -20,9 +20,126 @@ public class ConfiguredCapabilities {
 	private String MDN;
 	private String COMPOSE_LAYOUT;
 	private String CURRECIP;
+	private String ATTACHIMAGEVIEW;
+	private String RECIPIENTINFO;
+	private String MOREICON;
+	private String ATTACHITEMVIEW;
+	private String IMAGE_CONTENT;
+	private String TEXTVIEW;
+	private String ICON;
+	public String getICON() {
+		return ICON;
+	}
+
+	public void setICON(String iCON) {
+		ICON = iCON;
+	}
+
+	public String getTEXTVIEW() {
+		return TEXTVIEW;
+	}
+
+	public void setTEXTVIEW(String tEXTVIEW) {
+		TEXTVIEW = tEXTVIEW;
+	}
+
+	public String getIMAGE_CONTENT() {
+		return IMAGE_CONTENT;
+	}
+
+	public void setIMAGE_CONTENT(String iMAGE_CONTENT) {
+		IMAGE_CONTENT = iMAGE_CONTENT;
+	}
+
+	public String getATTACHITEMVIEW() {
+		return ATTACHITEMVIEW;
+	}
+
+	public void setATTACHITEMVIEW(String aTTACHITEMVIEW) {
+		ATTACHITEMVIEW = aTTACHITEMVIEW;
+	}
+
+	public String getMOREICON() {
+		return MOREICON;
+	}
+
+	public void setMOREICON(String mOREICON) {
+		MOREICON = mOREICON;
+	}
+
+	public String getRECIPIENTINFO() {
+		return RECIPIENTINFO;
+	}
+
+	public void setRECIPIENTINFO(String rECIPIENTINFO) {
+		RECIPIENTINFO = rECIPIENTINFO;
+	}
+
+	public String getATTACHIMAGEVIEW() {
+		return ATTACHIMAGEVIEW;
+	}
+
+	public void setATTACHIMAGEVIEW(String aTTACHIMAGEVIEW) {
+		ATTACHIMAGEVIEW = aTTACHIMAGEVIEW;
+	}
+
+	public String getMSB_BUTTON() {
+		return MSB_BUTTON;
+	}
+
+	public void setMSB_BUTTON(String mSB_BUTTON) {
+		MSB_BUTTON = mSB_BUTTON;
+	}
+
 	private String EMBEDDED_TEXT_EDITOR;
 	private String BTNATTACH; 
 	private String ATTACHBUTTON;
+	private String CONVERSATN_LIST_ACTVITY;
+	private String DRAWER;
+	private String EDIT_SIGNATURE;
+	private String ONLINEIMAGEVIEW;
+	private String IMAGE_ITEM;
+	private String MSB_BUTTON;
+	public String getIMAGE_ITEM() {
+		return IMAGE_ITEM;
+	}
+
+	public void setIMAGE_ITEM(String iMAGE_ITEM) {
+		IMAGE_ITEM = iMAGE_ITEM;
+	}
+
+	public String getONLINEIMAGEVIEW() {
+		return ONLINEIMAGEVIEW;
+	}
+
+	public void setONLINEIMAGEVIEW(String oNLINEIMAGEVIEW) {
+		ONLINEIMAGEVIEW = oNLINEIMAGEVIEW;
+	}
+
+	public String getEDIT_SIGNATURE() {
+		return EDIT_SIGNATURE;
+	}
+
+	public void setEDIT_SIGNATURE(String eDIT_SIGNATURE) {
+		EDIT_SIGNATURE = eDIT_SIGNATURE;
+	}
+
+	public String getDRAWER() {
+		return DRAWER;
+	}
+
+	public void setDRAWER(String dRAWER) {
+		DRAWER = dRAWER;
+	}
+
+	public String getCONVERSATN_LIST_ACTVITY() {
+		return CONVERSATN_LIST_ACTVITY;
+	}
+
+	public void setCONVERSATN_LIST_ACTVITY(String cONVERSATN_LIST_ACTVITY) {
+		CONVERSATN_LIST_ACTVITY = cONVERSATN_LIST_ACTVITY;
+	}
+
 	public String getATTACHBUTTON() {
 		return ATTACHBUTTON;
 	}
@@ -62,6 +179,15 @@ public class ConfiguredCapabilities {
 	private String COLORCIRCLETEXTVIEW;
 	private String CHECKBOX;
 	private String BUTTON1;
+	private String BUTTON;
+	public String getBUTTON() {
+		return BUTTON;
+	}
+
+	public void setBUTTON(String bUTTON) {
+		BUTTON = bUTTON;
+	}
+
 	private String TEXT1;
 	private String TEXT;
 	private String PROV_ACCEPTBUTTON;

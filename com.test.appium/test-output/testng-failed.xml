@@ -1,38 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Command line suite]">
-  <test name="Command line test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="Test.com.test.appium.About">
+      <class name="test.com.test.appium.AttachOptionsVisibility">
         <methods>
-          <include name="clickAbout"/>
-          <include name="setUp"/>
+          <include name="attach_elements"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- Test.com.test.appium.About -->
-      <class name="Test.com.test.appium.Attachment">
-        <methods>
-          <include name="setUp"/>
-          <include name="composeWithImage"/>
-        </methods>
-      </class> <!-- Test.com.test.appium.Attachment -->
-      <class name="Test.com.test.appium.BigText">
-        <methods>
-          <include name="sendBigText"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Test.com.test.appium.BigText -->
-      <class name="Test.com.test.appium.BackGroundsScreen">
-        <methods>
-          <include name="setUp"/>
-          <include name="viewBackGroundsScreen"/>
-        </methods>
-      </class> <!-- Test.com.test.appium.BackGroundsScreen -->
-      <class name="Test.com.test.appium.Audio">
-        <methods>
-          <include name="selectAudio"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Test.com.test.appium.Audio -->
+      </class> <!-- test.com.test.appium.AttachOptionsVisibility -->
     </classes>
-  </test> <!-- Command line test(failed) -->
-</suite> <!-- Failed suite [Command line suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
