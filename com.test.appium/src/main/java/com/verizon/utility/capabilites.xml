@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<capabilities>
+		<!-- browser name of the device -->
+		<BROWSER_NAME>Android</BROWSER_NAME>
+		<!-- the version of the os. -->
+		<VERSION>4.4.4</VERSION>
+		<!-- type of the device used -->
+		<DEVICE>Android</DEVICE>
+		<!-- name of the device used -->
+		<DEVICE_NAME>lenovo-A_6000</DEVICE_NAME>
+		<!-- noReset value -->
+		<NORESET>true</NORESET>
+		<!-- platform of the device -->
+		<PLATFORM_NAME>Android</PLATFORM_NAME>
+		<!-- platform of the testing device -->
+		<PLATFORM>WINDOW</PLATFORM>
+		<!-- the package of the application -->
+		<APP_PACKAGE>com.verizon.messaging.vzmsgs</APP_PACKAGE>
+		<!--VZMessages-6.0.4-27-qa-release.apk, com.verizon.messaging.vzmsgs-->
+		<!-- the activity to test on the device -->
+		<APP_ACTIVITY>com.verizon.mms.ui.activity.Provisioning</APP_ACTIVITY>
+		<!--com.verizon.mms.ui.activity.Provisioning,   .GiftChooseActivity-->
+		<!-- the wait activity to be tested -->
+		<APP_WAIT_ACTIVITY>com.verizon.mms.ui.ComposeMessageActivity</APP_WAIT_ACTIVITY>
+		<!-- the path of the apk file on local machine -->
+		<FILE_PATH>/home/channabasava/app/VZMessages-6.0.4-27-qa-release.apk</FILE_PATH>
+		<!-- to set the dialog title of the device -->
+		<DIALOG_TITLE>com.verizon.messaging.vzmsgs:id/dialog_title</DIALOG_TITLE>
+		<!-- clickable positive button on the device -->
+		<POSITIVE_BUTTON>com.verizon.messaging.vzmsgs:id/positive_button</POSITIVE_BUTTON>
+		<!-- to set the drawe icon on the device -->
+		<DRAWER_ICON>com.verizon.messaging.vzmsgs:id/drawerIcon</DRAWER_ICON>
+		<!-- to set the android web url on the device -->
+		<URL>http://127.0.0.1:4723/wd/hub</URL>
+		<!-- the MDN number used to test on the device -->
+		<MDN>9253248931</MDN>
+		<!-- the UNICODEKEYBOARD value -->
+		<UNICODEKEYBOARD>true</UNICODEKEYBOARD>
+		<!-- to set the compose layout on the device -->
+		<COMPOSE_LAYOUT>com.verizon.messaging.vzmsgs:id/compose_layout</COMPOSE_LAYOUT>
+		<!-- to set the cursip on the device -->
+		<CURRECIP>com.verizon.messaging.vzmsgs:id/curRecip</CURRECIP>
+		<!-- to set the emdedd text on the device -->
+		<EMBEDDED_TEXT_EDITOR>com.verizon.messaging.vzmsgs:id/embedded_text_editor</EMBEDDED_TEXT_EDITOR>
+		<!-- to set the id of the btnAttach on the device -->
+		<BTNATTACH>com.verizon.messaging.vzmsgs:id/btnAttach</BTNATTACH>
+		<!-- to set the id of the attach button on the device -->
+		<ATTACHBUTTON>com.verizon.messaging.vzmsgs:id/attachbutton</ATTACHBUTTON>
+		<!-- to set the grid on the device -->
+		<GRID>com.verizon.messaging.vzmsgs:id/grid</GRID>
+		<!-- to set the navigable button on the device -->
+		<NAVBAR_BUTTON1>com.verizon.messaging.vzmsgs:id/navbar_button1</NAVBAR_BUTTON1>
+		<!-- to set the send button on the device -->
+		<BTNSEND>com.verizon.messaging.vzmsgs:id/btnSend</BTNSEND>
+		<!-- to set the OK button on the device -->
+		<OKAYBUTTON>com.android.music:id/okayButton</OKAYBUTTON>
+		<!-- to set the OKbtns buttons on the device -->
+		<OKBTNS>com.verizon.messaging.vzmsgs:id/okbtns</OKBTNS>
+		<!-- to set the pager on the device -->
+		<PAGER>com.verizon.messaging.vzmsgs:id/pager</PAGER>
+		<!-- to set the image con gallery option on the device -->
+		<IMGCONVGALLERYOPTION>com.verizon.messaging.vzmsgs:id/imgConvGalleryOption</IMGCONVGALLERYOPTION>		
+		<!-- to set the header text on the device -->
+		<HEADERTEXT>com.verizon.messaging.vzmsgs:id/headerText</HEADERTEXT>
+		<!-- to set the sub-header text on the device -->
+		<SUBHEADERTEXT>com.verizon.messaging.vzmsgs:id/subHeaderText</SUBHEADERTEXT>
+		<!-- to set the from tab on the device -->
+		<FROM>com.verizon.messaging.vzmsgs:id/from</FROM>
+		<!-- to set the subject tab on the device -->
+		<SUBJECT>com.verizon.messaging.vzmsgs:id/subject</SUBJECT>
+		<!-- to set the unread count on the device -->
+		<UNREADCOUNT>com.verizon.messaging.vzmsgs:id/unreadcount</UNREADCOUNT>
+		<!-- to set the date tab on the device -->
+		<DATE>com.verizon.messaging.vzmsgs:id/date</DATE>
+		<!-- to set the up arrow button on the device -->
+		<UPBUTTON>com.verizon.messaging.vzmsgs:id/upButton</UPBUTTON>
+		<!-- to set the capture id of the camera on the device -->
+		<CAPTURE>com.verizon.messaging.vzmsgs:id/capture</CAPTURE>
+		<!-- to set the default bubble type id on the device -->
+		<DEFAULTBUBBLETYPE>com.verizon.messaging.vzmsgs:id/defaultBubbleType</DEFAULTBUBBLETYPE>
+		<!-- to set the default font size on the device -->
+		<DEFAULTFONTSIZE>com.verizon.messaging.vzmsgs:id/defaultFontSize</DEFAULTFONTSIZE>
+		<!-- to set the default font style on the device -->
+		<DEFAULTFONTSTYLE>com.verizon.messaging.vzmsgs:id/defaultFontStyle</DEFAULTFONTSTYLE>
+		<!-- to set the seek bar on the device -->
+		<SEEKBAR>com.verizon.messaging.vzmsgs:id/seekbar</SEEKBAR>
+		<!-- to set the color circle text view option on the device -->
+		<COLORCIRCLETEXTVIEW>com.verizon.messaging.vzmsgs:id/colorCircleTextView</COLORCIRCLETEXTVIEW>
+		<!-- to set the id of the checkbox on the device -->
+		<CHECKBOX>android.widget.CheckBox</CHECKBOX>
+		<!-- to set the id of the button1 on the device -->
+		<BUTTON1>android:id/button1</BUTTON1>
+		<!-- to set the id of the button on the device -->
+		<BUTTON>com.verizon.messaging.vzmsgs:id/button</BUTTON>
+		<!-- to set the id of the textbox on the device -->
+		<TEXT1>android:id/text1</TEXT1>
+		<!-- to set the id of the textbox on the device -->
+		<TEXT>com.verizon.messaging.vzmsgs:id/text</TEXT>
+		<!-- To set the PROV_ACCEPTBUTTON -->
+		<PROV_ACCEPTBUTTON>com.verizon.messaging.vzmsgs:id/prov_acceptButton</PROV_ACCEPTBUTTON>
+		<!-- to set the id of addcontainer item on the device -->
+		<ADDCONTAINER>com.verizon.messaging.vzmsgs:id/addContainer</ADDCONTAINER>
+		<!-- to set the id of the add button on the device -->
+		<ADD>com.verizon.messaging.vzmsgs:id/add</ADD>
+		<!-- to set the id of the header button on the device -->
+		<HEADER_BUTTON>com.verizon.messaging.vzmsgs:id/headerButton</HEADER_BUTTON>
+		<!-- to set the id of the frame layout on the device -->
+		<FRAMELAYOUT>android.widget.FrameLayout</FRAMELAYOUT>
+		<!-- to set the id of the menusearch item on the device -->
+		<MENU_SEARCH>com.android.contacts:id/menu_search</MENU_SEARCH>
+		<!-- to set the id of the search text box on the device -->
+		<SEARCH_SRC_TEXT>android:id/search_src_text</SEARCH_SRC_TEXT>
+		<!-- to set the id of the cliv name text view on the device -->
+		<CLIV_NAME_TEXTVIEW>com.android.contacts:id/cliv_name_textview</CLIV_NAME_TEXTVIEW>
+		<!-- to set the id of the view on the device -->
+		<VIEW>android.view.View</VIEW>
+		<!-- to set the id of the textname field on the device -->
+		<TXTNAME>com.verizon.messaging.vzmsgs:id/txtName</TXTNAME>
+		<!-- to set the id of the customized name field on the device -->
+		<CUSTOMIZ_NAME>com.verizon.messaging.vzmsgs:id/customiz_name</CUSTOMIZ_NAME>
+		<!-- to set the id of the options dialog on the device -->
+		<OPTIONS_DLG>com.verizon.messaging.vzmsgs:id/options_dlg</OPTIONS_DLG>
+		<!-- to set the id of the stop sharing item on the device -->
+		<STOP_SHARING>com.verizon.messaging.vzmsgs:id/stop_sharing</STOP_SHARING>
+		<!-- to set the id of the time left counter on the device -->
+		<TIME_LEFT>com.verizon.messaging.vzmsgs:id/time_left</TIME_LEFT>
+		<!-- to set the id of the delete button on the device -->
+		<DELETE_BTN>com.verizon.messaging.vzmsgs:id/delete_btn</DELETE_BTN>
+		<!-- to set the id of the delete button on the device -->
+		<DELETEBTN>com.verizon.messaging.vzmsgs:id/deleteBtn</DELETEBTN>
+		<!-- to set the id of the avatar item on the device -->
+		<AVATAR>com.verizon.messaging.vzmsgs:id/avatar</AVATAR>
+		<!-- to set the id of the lockmsg item on the device -->
+		<LOCKMSG>com.verizon.messaging.vzmsgs:id/lockMsg</LOCKMSG>
+		<!-- to set the id of the deletelocked item on the device -->
+		<DELETE_LOCKED>com.verizon.messaging.vzmsgs:id/delete_locked</DELETE_LOCKED>
+		<!-- to set the id of the message list item on the device -->
+		<MSG_LIST_ITEM>com.verizon.messaging.vzmsgs:id/msg_list_item</MSG_LIST_ITEM>
+		<!-- to set the id of the albums item on the device -->
+		<ALBUMS>com.verizon.messaging.vzmsgs:id/albums</ALBUMS>
+		<!-- to set the id of the catption hint item on the device -->
+		<CAPTIONHINT>com.verizon.messaging.vzmsgs:id/captionHint</CAPTIONHINT>
+		<!-- to set the id of the editview item on the device -->
+		<EDITVIEW>com.verizon.messaging.vzmsgs:id/editView</EDITVIEW>
+		<!-- to set the id of the mediaimage on the device -->
+		<MEDIAIMAGE>com.verizon.messaging.vzmsgs:id/mediaImage</MEDIAIMAGE>
+		<!-- to set the id of the compose button on the device -->
+		<COMPOSEBUTTON>com.verizon.messaging.vzmsgs:id/composebutton</COMPOSEBUTTON>
+		<!-- to set the id of the to set the id of the edit name container item on the device -->
+		<EDIT_NAME_CONTAINER>com.verizon.messaging.vzmsgs:id/edit_name_container</EDIT_NAME_CONTAINER>
+		<!-- To set the on-off-button in the driving mode -->
+		<ON_OFF_BTN_BOX>com.verizon.messaging.vzmsgs:id/on_off_btn_box</ON_OFF_BTN_BOX>
+		<!-- To set the button emoji -->
+		<BTNEMOJI>com.verizon.messaging.vzmsgs:id/btnEmoji</BTNEMOJI>
+		<!-- To set the first_dialog_message -->
+		<FIRST_DIALOG_MESSAGE>com.verizon.messaging.vzmsgs:id/first_dialog_message</FIRST_DIALOG_MESSAGE>
+		<!-- To set the dialog_message -->
+		<DIALOG_MESSAGE>com.verizon.messaging.vzmsgs:id/dialog_message</DIALOG_MESSAGE>
+		<!-- To set the prov_declineButton -->
+		<PROV_DECLINEBUTTON>com.verizon.messaging.vzmsgs:id/prov_declineButton</PROV_DECLINEBUTTON>
+		<!-- To set the titile text -->
+		<TITLETEXT>com.verizon.messaging.vzmsgs:id/titleText</TITLETEXT>
+		<!-- To set the close button -->
+		<CLOSEBUTTON>com.verizon.messaging.vzmsgs:id/closeButton</CLOSEBUTTON>
+		<!-- To set the request checkbox -->
+		<REQUEST_CHECKBOX>com.verizon.messaging.vzmsgs:id/request_checkbox</REQUEST_CHECKBOX>
+		<!-- To set the destination checkbox -->
+		<DESTINATION_CHECKBOX>com.verizon.messaging.vzmsgs:id/destination_checkbox</DESTINATION_CHECKBOX>
+		<!-- To set the send button -->
+		<SENDBUTT>com.verizon.messaging.vzmsgs:id/sendbutt</SENDBUTT>
+		<!-- To set the edit text -->
+		<EDITTEXT>android.widget.EditText</EDITTEXT>
+		<!-- To set the fragmentType -->
+		<FRAGMENTTYPE>com.verizon.messaging.vzmsgs:id/fragmentType</FRAGMENTTYPE>
+		<!-- To set all the shared conversations -->
+		<SHAREDINALLCONVERSATION>com.verizon.messaging.vzmsgs:id/sharedInAllConversation</SHAREDINALLCONVERSATION>
+		<!-- To set all the dialog_subtitle -->
+		<DIALOG_SUB_TITLE>com.verizon.messaging.vzmsgs:id/dialog_sub_title</DIALOG_SUB_TITLE>
+		<!-- To set image view -->
+		<IMAGEVIEW>android.widget.ImageView</IMAGEVIEW>
+		<!-- To set web attach button -->
+		<WEB_ATTACH_BUTTON>com.verizon.messaging.vzmsgs:id/web_attach_button</WEB_ATTACH_BUTTON>
+		<!-- To set edit text button -->
+		<SEARCH_BAR_EDIT_TEXT>com.verizon.messaging.vzmsgs:id/search_bar_edit_text</SEARCH_BAR_EDIT_TEXT>
+		<!-- To set search_button -->
+		<BUTTON_SEARCH>com.verizon.messaging.vzmsgs:id/button_search</BUTTON_SEARCH>
+		<!-- To set searchbutton -->
+		<SEARCH_BUTTON>com.verizon.messaging.vzmsgs:id/searchbutton</SEARCH_BUTTON>
+		<!-- To set message button -->
+		<MESSAGE>com.verizon.messaging.vzmsgs:id/message</MESSAGE>
+		<!-- To set action item container -->
+		<ACTIONITEMCONTAINER>com.verizon.messaging.vzmsgs:id/actionItemContainer</ACTIONITEMCONTAINER>
+		<!-- To set verizon messages url -->
+		<VZMESSAGES>com.verizon.messaging.vzmsgs</VZMESSAGES>
+		<!-- To set url bar -->
+		<URL_BAR>com.android.chrome:id/url_bar</URL_BAR>
+		<!-- To set negative button or no button -->
+		<NEGATIVE_BUTTON>com.verizon.messaging.vzmsgs:id/negative_button</NEGATIVE_BUTTON>
+		<!-- To set TIP on the screen -->
+		<TIP>com.verizon.messaging.vzmsgs:id/tip</TIP>
+		<!-- To set RelativeLayout -->
+		<RELATIVE_LAYOUT>android.widget.RelativeLayout</RELATIVE_LAYOUT>
+		<!-- To set a searcheable edit box -->
+		<SEARCHEDIT>com.verizon.messaging.vzmsgs:id/searchEdit</SEARCHEDIT>
+		<!-- To set a alert title -->
+		<ALERTTITLE>android:id/alertTitle</ALERTTITLE>
+		<!-- To set a header -->
+		<HEADER>com.verizon.messaging.vzmsgs:id/header</HEADER>	
+		<!-- To set conversationListActivity -->
+		<CONVERSATN_LIST_ACTVITY>com.rocketmobile.asimov.ConversationListActivity</CONVERSATN_LIST_ACTVITY>
+		<!-- To set editSignature -->
+		<EDIT_SIGNATURE>com.verizon.messaging.vzmsgs:id/edit_signature</EDIT_SIGNATURE>
+		<!-- To set drawer -->
+		<DRAWER>com.verizon.messaging.vzmsgs:id/drawer</DRAWER>
+		<!-- To set OnlineImageView -->
+		<ONLINEIMAGEVIEW>com.verizon.messaging.vzmsgs:id/onlineImageView</ONLINEIMAGEVIEW>
+		<!-- To set IMAGE_ITEM -->
+		<IMAGE_ITEM>com.verizon.messaging.vzmsgs:id/image_item</IMAGE_ITEM>
+		<!-- To set MSB_BUTTON -->
+		<MSB_BUTTON>com.verizon.messaging.vzmsgs:id/msb_button</MSB_BUTTON>
+		<!-- To set ATTACHIMAGEVIEW -->
+		<ATTACHIMAGEVIEW>com.verizon.messaging.vzmsgs:id/drawer</ATTACHIMAGEVIEW>
+		<!-- To set RECIPIENTINFO -->
+		<RECIPIENTINFO>com.verizon.messaging.vzmsgs:id/recipientInfo</RECIPIENTINFO>
+		<!-- To set MOREICON -->
+		<MOREICON>com.verizon.messaging.vzmsgs:id/moreIcon</MOREICON>
+		<!-- To set ATTACHITEMVIEW -->
+		<ATTACHITEMVIEW>com.verizon.messaging.vzmsgs:id/attachItemView</ATTACHITEMVIEW>
+		<!-- To set IMAGE_CONTENT -->
+		<IMAGE_CONTENT>com.verizon.messaging.vzmsgs:id/image_content</IMAGE_CONTENT>
+		<!-- To set TEXTVIEW -->
+		<TEXTVIEW>com.verizon.messaging.vzmsgs:id/textView</TEXTVIEW>
+		<!-- To set ICON -->
+		<ICON>com.verizon.messaging.vzmsgs:id/icon</ICON>	
+</capabilities>
